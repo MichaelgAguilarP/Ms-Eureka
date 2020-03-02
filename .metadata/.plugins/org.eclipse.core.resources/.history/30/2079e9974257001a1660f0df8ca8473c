@@ -1,0 +1,5 @@
+package com.es.zgz.app.microservicios.models.entity;
+
+public class Polizas {
+
+}

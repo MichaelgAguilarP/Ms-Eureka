@@ -1,0 +1,44 @@
+package com.es.zgz.app.microservicios.services;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.es.zgz.app.microservicios.models.entity.Polizas;
+
+@Service
+
+public class AlumnoServiceImpl implements PolizaService {
+	
+	@Autowired
+	private PolizaRepository repository;
+	
+	@Override
+	@Transactional(readOnly=true)
+	public Iterable<Polizas> findAll() {
+		return null;
+	}
+
+	@Override
+	@Transactional(readOnly=true)
+	public Optional<Polizas> findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	@Transactional
+	public Polizas save(Polizas poliza) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

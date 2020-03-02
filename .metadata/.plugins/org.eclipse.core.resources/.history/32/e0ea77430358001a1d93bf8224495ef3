@@ -1,0 +1,12 @@
+package com.es.zgz.app.microservicios.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.es.zgz.app.microservicios.services.PolizaService;
+
+@RestController
+public class PolizaController {
+	
+	private PolizaService service;
+
+}

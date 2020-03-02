@@ -1,0 +1,9 @@
+package com.es.zgz.app.microservicios.services;
+
+import com.es.zgz.app.microservicios.models.entity.Polizas;
+
+public interface PolizaService {
+	
+	public Iterable<Polizas> findAll();
+
+}

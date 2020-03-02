@@ -1,0 +1,33 @@
+package com.es.zgz.app.microservicios.services;
+
+import java.util.Optional;
+
+import com.es.zgz.app.microservicios.models.entity.Polizas;
+
+public class AlumnoServiceImpl implements PolizaService {
+
+	@Override
+	public Iterable<Polizas> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Polizas> findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Polizas save(Polizas poliza) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

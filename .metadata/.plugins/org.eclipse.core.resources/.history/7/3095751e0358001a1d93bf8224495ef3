@@ -1,0 +1,6 @@
+package com.es.zgz.app.microservicios.controllers;
+
+@RestController
+public class PolizaController {
+
+}

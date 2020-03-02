@@ -1,0 +1,5 @@
+package com.es.zgz.app.microservicios.services;
+
+public interface PolizaService {
+
+}

@@ -1,0 +1,10 @@
+package com.es.zgz.app.microservicios.models.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="polizas")
+public class Polizas {
+
+}

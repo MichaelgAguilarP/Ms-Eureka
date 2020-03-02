@@ -1,0 +1,18 @@
+package com.es.zgz.app.microservicios.models.entity;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="polizas")
+public class Polizas {
+	private Long id;
+	private String nombre;
+	private String apellido;
+	private String email;
+	
+	private Date createAt;
+
+}

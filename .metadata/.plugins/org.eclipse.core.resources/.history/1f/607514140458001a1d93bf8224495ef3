@@ -1,0 +1,21 @@
+package com.es.zgz.app.microservicios.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.es.zgz.app.microservicios.services.PolizaService;
+
+@RestController
+public class PolizaController {
+	
+	@Autowired
+	private PolizaService service;
+	
+	@GetMapping
+	public ResponseEntity<?> listar(){
+		return ResponseEntity.ok().body(service.findAll());
+	}
+	
+}
